@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Creamos el objeto
+        CocheCRUD cocheCRUD = new CocheCRUDImpl();
+
+        // llamamos a cada uno de los métodos
+
+        cocheCRUD.save();
+        cocheCRUD.findAll();
+        cocheCRUD.delete();
+
+    }
+}
