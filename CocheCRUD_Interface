@@ -1,0 +1,11 @@
+public interface CocheCRUD {
+
+    // métodos
+
+    public void save();
+
+    public void findAll();
+
+    public void delete();
+
+}
